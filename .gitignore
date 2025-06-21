@@ -1,1 +1,52 @@
-.vscode
+# --- C++ build files ---
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.gch
+*.pch
+*.stackdump
+
+# --- Libraries and dependencies ---
+*.lib
+*.a
+*.la
+*.lo
+*.dll
+*.so
+*.dylib
+
+# --- Build system files ---
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# --- IDE/Editor specific ---
+.vscode/
+.idea/
+*.sdf
+*.opensdf
+*.vcxproj*
+*.suo
+*.user
+*.ncb
+*.log
+*.idb
+*.pdb
+*.ipch
+
+# --- Editor/OS temp files ---
+*~
+*.swp
+*.bak
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Other optional ---
+build/
