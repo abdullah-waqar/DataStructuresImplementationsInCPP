@@ -19,6 +19,13 @@ int power(int base, int exp)
     return base * power(base , exp - 1);
 }
 
+int p(int n)
+{
+    if(n == 0)
+        return 1;
+    return 2 * p(n-1);
+}
+
 int main()
 {
     int n;
@@ -28,7 +35,7 @@ int main()
     // int ans = factorial(n);
     // cout << "Answer: " << ans << endl;
 
-    int ans = power(2, 2);
+    int ans = p(2);
     cout << "Answer: " << ans << endl;
 
 }
