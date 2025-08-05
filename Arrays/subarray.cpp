@@ -42,7 +42,7 @@ int main()
        max_sum = max(maxSofar,max_sum);
        if(maxSofar  < 0)
        {
-        maxSofar = 0;
+            maxSofar = 0;
        }
     }
 
